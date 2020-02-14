@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/5c87734899.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Vos commentaires</title>
+</head>
+<body>
+
+<div id="main">
+    <h2>Vos commentaires</h2>
+
+</div>
+<hr>
+<div id=" formulaire"></div>
+
+<form class="container" action="script.php" method="post">
+    <div class="row">
+        <label class="col-md-2">Votre nom/pseudo</label>
+        <input class="col-md-4 col-md-offset-6" type="text" name="pseudo" id="pseudo" required>
+
+    </div>
+        <textarea class="col-md-9" name="com" id="com" rows="10" placeholder="Votre commentaire" required></textarea>
+    </div>
+    <button type="button" id="btn">Envoyer</button>
+</form>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
